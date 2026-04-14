@@ -14,7 +14,7 @@ PUBLIC_DIR="$SCRIPT_DIR"
 MOS_SKILLS_DIR="$(cd "$SCRIPT_DIR/../mos/skills" && pwd)"
 
 # 需要同步的 skill 列表
-SKILLS=(mos-bi mos-core mos-gos mos-tapd)
+SKILLS=(mos-core mos-tapd)
 
 usage() {
   echo "用法: $0 {push|pull|diff}"
